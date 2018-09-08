@@ -1,0 +1,10 @@
+﻿var Player :Transform;
+var DistanceFromPlayer:float=5;
+var StaticCameraY :float =3;
+function Update() {
+transform.position.z=Player.position.z-DistanceFromPlayer;
+transform.position.x=Player.position.x+3;
+}
+function LatestUpdate() {
+GetComponent.<Camera>().main.transform.position.y=StaticCameraY;
+}

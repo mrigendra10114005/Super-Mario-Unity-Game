@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mario", "Assembly-CSharp-firstpass.csproj", "{6A632D0C-324E-C8B7-6890-24AF6F9D458E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mario", "Assembly-CSharp-Editor-firstpass.csproj", "{282F729A-1CE6-DDE0-6F27-F056535C2F43}"
+EndProject
+Project("{DE2F15D0-14D4-0B93-578D-255E6221FD60}") = "mario", "Assembly-UnityScript.unityproj", "{81D780F3-EEA8-BD42-8638-8233BE30EBF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A632D0C-324E-C8B7-6890-24AF6F9D458E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A632D0C-324E-C8B7-6890-24AF6F9D458E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A632D0C-324E-C8B7-6890-24AF6F9D458E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A632D0C-324E-C8B7-6890-24AF6F9D458E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{282F729A-1CE6-DDE0-6F27-F056535C2F43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{282F729A-1CE6-DDE0-6F27-F056535C2F43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{282F729A-1CE6-DDE0-6F27-F056535C2F43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{282F729A-1CE6-DDE0-6F27-F056535C2F43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81D780F3-EEA8-BD42-8638-8233BE30EBF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81D780F3-EEA8-BD42-8638-8233BE30EBF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81D780F3-EEA8-BD42-8638-8233BE30EBF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81D780F3-EEA8-BD42-8638-8233BE30EBF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
